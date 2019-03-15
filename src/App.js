@@ -35,13 +35,15 @@ class App extends Component {
        <div id="quote-box"> 
         <p id="text">{quote.quoteText}</p>
         <p id="author">{quote.quoteAuthor}</p>
-        <button id="new-quote" onClick={this.clickhandler}> 
-        New Quote
-        </button>
-        <button>
-          <a id="tweet-quote" href={url} rel="noopener noreferrer" target="_blank">
-            Tweet Quote</a>
-        </button>
+        <div id="contain-btn">
+           <button id="new-quote" onClick={this.clickhandler}> 
+            New Quote
+            </button>
+            <button>
+              <a id="tweet-quote" href={url} rel="noopener noreferrer" target="_blank">
+             Tweet Quote</a>
+            </button>
+         </div>
         </div> 
     );
   }

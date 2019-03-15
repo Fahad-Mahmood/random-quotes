@@ -23,3 +23,9 @@ button {
   color: #D90808;
   padding:10px 20px;
 }
+
+#contain-btn {
+  width:100%;
+  display:flex;
+  justify-content:center;
+}
